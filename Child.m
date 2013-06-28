@@ -8,8 +8,8 @@ classdef Child < Parent
         function run()
             disp('running');
         end
-        %function goodbye()
-        %    disp('oops');
-        %end
+        function goodbye()
+            disp('oops');
+        end
     end
 end
